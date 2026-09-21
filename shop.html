@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop &mdash; Thriftly</title>
+<meta name="description" content="Browse this week's thrifted clothing drop &mdash; jackets, dresses, denim, and knitwear, all hand-checked.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%F0%9F%A7%B5</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">Thriftly<span class="dot">.</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
+      <span></span>
+    </button>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Home</a>
+      <a href="shop.html" aria-current="page">Shop</a>
+      <a href="about.html">Our Story</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <div class="page-header">
+    <div class="wrap">
+      <h1>The full rack</h1>
+      <p>Every piece below is in stock right now. Sizes and condition are listed honestly &mdash; ask us anything before you buy.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+
+      <div class="filter-bar" id="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="outerwear">Outerwear</button>
+        <button class="filter-btn" data-filter="dresses">Dresses</button>
+        <button class="filter-btn" data-filter="knitwear">Knitwear</button>
+        <button class="filter-btn" data-filter="denim">Denim</button>
+        <button class="filter-btn" data-filter="tops">Tops</button>
+      </div>
+
+      <div class="grid" id="shop-grid">
+
+        <article class="tag-card" data-category="outerwear">
+          <div class="swatch" style="background:#EADFC5;">
+            <span class="stamp">-40%</span>
+            <svg viewBox="0 0 100 100"><path d="M25 20 L45 8 L55 8 L75 20 L88 34 L72 42 L72 92 L28 92 L28 42 L12 34 Z" fill="#B5482A" stroke="#201D16" stroke-width="3" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="info">
+            <span class="cat">Outerwear</span>
+            <h3>Corduroy Chore Jacket</h3>
+            <span class="meta">Size M &middot; Good condition</span>
+            <div class="price-row">
+              <span class="price"><span class="was">KSh 3,800</span>KSh 2,200</span>
+              <button class="add-btn" data-name="Corduroy Chore Jacket">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="tag-card" data-category="dresses">
+          <div class="swatch" style="background:#DDE3D2;">
+            <svg viewBox="0 0 100 100"><path d="M35 10 L65 10 L70 28 L60 95 L40 95 L30 28 Z" fill="#3C5A70" stroke="#201D16" stroke-width="3" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="info">
+            <span class="cat">Dresses</span>
+            <h3>Slip Dress, Midnight Green</h3>
+            <span class="meta">Size S &middot; Like new</span>
+            <div class="price-row">
+              <span class="price">KSh 1,600</span>
+              <button class="add-btn" data-name="Slip Dress, Midnight Green">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="tag-card" data-category="knitwear">
+          <div class="swatch" style="background:#E7D9BE;">
+            <svg viewBox="0 0 100 100"><path d="M20 10 L40 10 L50 22 L60 10 L80 10 L86 30 L72 36 L72 92 L28 92 L28 36 L14 30 Z" fill="#D9A441" stroke="#201D16" stroke-width="3" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="info">
+            <span class="cat">Knitwear</span>
+            <h3>Wool Crewneck Sweater</h3>
+            <span class="meta">Size L &middot; Excellent</span>
+            <div class="price-row">
+              <span class="price">KSh 1,900</span>
+              <button class="add-btn" data-name="Wool Crewneck Sweater">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="tag-card" data-category="denim">
+          <div class="swatch" style="background:#DCE3E6;">
+            <svg viewBox="0 0 100 100"><path d="M30 8 L70 8 L74 30 L64 30 L62 92 L52 92 L50 45 L48 92 L38 92 L36 30 L26 30 Z" fill="#7C8B5F" stroke="#201D16" stroke-width="3" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="info">
+            <span class="cat">Denim</span>
+            <h3>High-rise Straight Jeans</h3>
+            <span class="meta">Size 30 &middot; Good condition</span>
+            <div class="price-row">
+              <span class="price">KSh 2,000</span>
+              <button class="add-btn" data-name="High-rise Straight Jeans">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="tag-card" data-category="tops">
+          <div class="swatch" style="background:#F0E6D8;">
+            <svg viewBox="0 0 100 100"><path d="M22 22 L40 10 L50 18 L60 10 L78 22 L88 36 L74 44 L74 92 L26 92 L26 44 L12 36 Z" fill="#D9A441" stroke="#201D16" stroke-width="3" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="info">
+            <span class="cat">Tops</span>
+            <h3>Striped Cotton Button-up</h3>
+            <span class="meta">Size M &middot; Excellent</span>
+            <div class="price-row">
+              <span class="price">KSh 1,200</span>
+              <button class="add-btn" data-name="Striped Cotton Button-up">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="tag-card" data-category="outerwear">
+          <div class="swatch" style="background:#E4DCC9;">
+            <svg viewBox="0 0 100 100"><path d="M25 20 L45 8 L55 8 L75 20 L88 34 L72 42 L72 92 L28 92 L28 42 L12 34 Z" fill="#3C5A70" stroke="#201D16" stroke-width="3" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="info">
+            <span class="cat">Outerwear</span>
+            <h3>Denim Trucker Jacket</h3>
+            <span class="meta">Size M &middot; Good condition</span>
+            <div class="price-row">
+              <span class="price">KSh 2,600</span>
+              <button class="add-btn" data-name="Denim Trucker Jacket">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="tag-card" data-category="dresses">
+          <div class="swatch" style="background:#EFE2DC;">
+            <span class="stamp">-25%</span>
+            <svg viewBox="0 0 100 100"><path d="M35 10 L65 10 L70 28 L60 95 L40 95 L30 28 Z" fill="#B5482A" stroke="#201D16" stroke-width="3" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="info">
+            <span class="cat">Dresses</span>
+            <h3>Floral Wrap Dress</h3>
+            <span class="meta">Size M &middot; Small mark on hem</span>
+            <div class="price-row">
+              <span class="price"><span class="was">KSh 2,000</span>KSh 1,500</span>
+              <button class="add-btn" data-name="Floral Wrap Dress">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="tag-card" data-category="knitwear">
+          <div class="swatch" style="background:#DDE3D2;">
+            <svg viewBox="0 0 100 100"><path d="M20 10 L40 10 L50 22 L60 10 L80 10 L86 30 L72 36 L72 92 L28 92 L28 36 L14 30 Z" fill="#7C8B5F" stroke="#201D16" stroke-width="3" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="info">
+            <span class="cat">Knitwear</span>
+            <h3>Cable Knit Cardigan</h3>
+            <span class="meta">Size S &middot; Like new</span>
+            <div class="price-row">
+              <span class="price">KSh 2,100</span>
+              <button class="add-btn" data-name="Cable Knit Cardigan">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="tag-card" data-category="denim">
+          <div class="swatch" style="background:#E7D9BE;">
+            <svg viewBox="0 0 100 100"><path d="M30 8 L70 8 L74 30 L64 30 L62 92 L52 92 L50 45 L48 92 L38 92 L36 30 L26 30 Z" fill="#3C5A70" stroke="#201D16" stroke-width="3" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="info">
+            <span class="cat">Denim</span>
+            <h3>Cropped Wide-leg Jeans</h3>
+            <span class="meta">Size 28 &middot; Excellent</span>
+            <div class="price-row">
+              <span class="price">KSh 1,800</span>
+              <button class="add-btn" data-name="Cropped Wide-leg Jeans">Add</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <p id="empty-state" style="display:none; text-align:center; color:var(--forest); margin-top:20px;">Nothing in this category right now &mdash; check back Friday.</p>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a href="index.html" class="logo">Thriftly<span class="dot">.</span></a>
+        <p style="max-width:38ch; margin-top:12px;">Hand-checked secondhand clothing. Fair prices, honest condition notes, one closet's story becoming another's.</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="shop.html">All items</a></li>
+          <li><a href="about.html">Our process</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="mailto:hello@thriftly.example">hello@thriftly.example</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Thriftly. Made with love and secondhand thread.</span>
+      <span>Built for GitHub Pages</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
